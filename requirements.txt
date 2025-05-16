@@ -1,0 +1,8 @@
+Flask
+Pillow
+pymongo
+gunicorn
+opencv-python
+scipy
+keras
+tensorflow==2.18.0
