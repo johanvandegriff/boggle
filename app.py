@@ -979,6 +979,8 @@ def boggle_page():
     res = boggle_app(request)
     if type(res) == str:
         return Response(res, mimetype='text/html')
+    if type(res) == bytes:
+        return Response(res, mimetype='image/png')
     else:
         return Response(json.dumps(res, indent=2), mimetype='application/json')
 
