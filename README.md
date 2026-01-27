@@ -23,7 +23,7 @@ Search online for the scrabble dictionary of words with definitions, and convert
 ```
 
 ```bash
-docker run -p 8080:8080 -v ~/boggle-data/:/srv/ johanvandegriff/boggle:build1
+docker run -p 8080:8080 -v ~/boggle-data/:/srv/ epjane/boggle:build1
 ```
 
 Then visit [http://localhost:8080/](http://localhost:8080/) to play boggle.

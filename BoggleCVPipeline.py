@@ -660,7 +660,7 @@ letters5x5gridLabelsStr = "VANUIRAUHESKEITTDPRCGOUCA" #00171, 00160
 # letters5x5gridLabelsStr = "IXESMFLEYTOSEENOETNRRRIWM" #00172, 00161
 
 #process 1 image
-IMAGE_FILE = '/home/johanv/nextcloud/projects/boggle2.0/cascademan/categories/5x5/images/00160.jpg'
+IMAGE_FILE = '/home/user/nextcloud/projects/software-hardware/boggle2.0/cascademan/categories/5x5/images/00160.jpg'
 lettersGuessed, confidence = processImage(IMAGE_FILE)
 
 right = "".join([str(int(a == b)) for a,b in zip(lettersGuessed, letters5x5gridLabelsStr)])
